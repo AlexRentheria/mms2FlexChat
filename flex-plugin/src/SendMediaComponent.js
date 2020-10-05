@@ -12,11 +12,11 @@ class UploadComponent extends React.Component {
 
   imageUrl = 'https://images.unsplash.com/photo-1452873867668-7325bd9f4438?ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80'
 
-  videoUrl = 'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4'
+  videoUrl = 'https://video.openedu.tw/Examples/big_buck_bunny_720p_1mb.mp4'
 
-  pdfUrl = 'https://file-examples.com/wp-content/uploads/2017/10/file-sample_150kB.pdf'
+  pdfUrl = 'https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf'
 
-  audioUrl = 'https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3'
+  audioUrl = 'http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3'
 
   sendMediaMessage = async (to, mediaUrl) => {
     const { manager } = this.props;
